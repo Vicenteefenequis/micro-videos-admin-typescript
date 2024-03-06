@@ -21,14 +21,15 @@
 			"omzPlugins": "https://github.com/z-shell/F-Sy-H https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-completions"
 		},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Orta.vscode-jest",
+				"firsttris.vscode-jest-runner"
+			]
+		}
 	}
-	// "customizations": {
-	// 	"vscode": {
-	// 		"extensions": [
-	// 			"dbaeumer.vscode-eslint",
-	// 		]
-	// 	}
-	// }
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
